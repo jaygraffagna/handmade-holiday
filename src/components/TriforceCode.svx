@@ -1,0 +1,32 @@
+<script>
+  export let segment;
+</script>
+
+```javascript
+  const draw = () => {
+    context = canvas.getContext("2d");
+    const cWidth = canvas.width;
+    const cHeight = canvas.height;
+
+    let triangle1 = new Path2D();
+    triangle1.moveTo(cWidth * .5, 0);
+    triangle1.lineTo(cWidth * .25, cHeight * .5);
+    triangle1.lineTo(cWidth * .75, cHeight * .5);
+    context.fillStyle = 'gold';
+    context.fill(triangle1);
+
+    let triangle2 = new Path2D();
+    triangle2.moveTo(cWidth * .25,  cHeight * .5);
+    triangle2.lineTo(0, cHeight);
+    triangle2.lineTo(cWidth * .5, cHeight);
+    context.fillStyle = 'gold';
+    context.fill(triangle2);
+
+    let triangle3 = new Path2D();
+    triangle3.moveTo(cWidth * .75, cHeight * .5);
+    triangle3.lineTo(cWidth * .5, cHeight);
+    triangle3.lineTo(cWidth, cHeight);
+    context.fillStyle = 'gold';
+    context.fill(triangle3);
+  }
+```
