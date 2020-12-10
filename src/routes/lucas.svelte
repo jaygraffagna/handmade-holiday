@@ -54,13 +54,13 @@
       canvas {
         position: absolute;
         top: 22%;
-        left: 3%;
-        width: 200px;
-        height: 150px;
+        left: 3.5%;
+        width: 275px;
+        height: 200px;
       }
       #wrapper{
         position: relative;
-        font-size: 5px;
+        font-size: 7px;
       }
   }
 </style>
