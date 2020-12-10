@@ -1,6 +1,20 @@
 <script>
   export let segment;
 </script>
+<style>
+  pre{
+    min-height: 405px;
+    min-width: 425px;
+    background: gray;
+  }
+  @media (max-width: 500px) {
+      pre{
+        min-height: 280px;
+        min-width: 290px;
+        background: gray;
+      }
+  }
+</style>
 
 ```javascript
   const draw = () => {
