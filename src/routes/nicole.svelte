@@ -23,8 +23,5 @@
 
 <div class="container">
   <h1>Nicole</h1>
-  <figure>
-    <img src='rsz_florian-klauer-489-unsplash.jpg' alt='Image of a vintage typewriter.'>
-    <figcaption>Photo by <a href="https://unsplash.com/@florianklauer" target="_blank">Florian Klauer</a> on Unsplash</figcaption>
-  </figure>
+  https://u-stencil.com/wp-content/uploads/2019/03/Tailgater_Iowa_University_IOWA-1.jpg
 </div>
