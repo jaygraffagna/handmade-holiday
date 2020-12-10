@@ -1,10 +1,22 @@
 <script>
-  import { onMount, tick } from 'svelte';
-  import Marmion from '../components/Marmion.svx'
-
-  let canvas;
-  let context;
-
+    export let segment;
+</script>
+<style>
+  pre{
+    min-height: 405px;
+    min-width: 425px;
+    background: gray;
+  }
+  @media (max-width: 500px) {
+      pre{
+        min-height: 280px;
+        min-width: 290px;
+        background: gray;
+      }
+  }
+</style>
+  
+  ```javascript
   const draw = () => {
     context = canvas.getContext("2d");
      
@@ -30,46 +42,5 @@
     tape.lineTo(193, 100); tape.lineTo(205, 92);
     context.fillStyle = "#bC222a"; context.fill(tape);
   }
-
-  onMount(async () => {
-    await tick()
-    draw();
-  });
-</script>
-<style>
-  canvas {
-    position: absolute;
-    top: 15%;
-    left: 3%;
-    width: 400px;
-    height: 395px;
-  }
-  #wrapper{
-    position: relative;
-    font-size: 10px;
-  }
-
-  @media (max-width: 500px) {
-      canvas {
-        position: absolute;
-        top: 22%;
-        left: 3.5%;
-        width: 275px;
-        height: 275px;
-      }
-      #wrapper{
-        position: relative;
-        font-size: 7px;
-      }
-  }
-</style>
-
-<svelte:head>
-  <title>Jack Wallace</title>
-</svelte:head>
-
-<div id="wrapper" class="container">
-  <h1>Jack Wallace</h1>
-  <Marmion/>
-  <canvas bind:this={canvas} />
-</div>
+  ```
+  
