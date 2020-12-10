@@ -46,7 +46,7 @@
 
   <footer>
     <span>
-      Made with love by Jay Graffagna
+      Made with love by <a href="https://github.com/jaygraffagna/handmade-holiday">Jay Graffagna</a>
     </span>
   </footer>
 </div>
