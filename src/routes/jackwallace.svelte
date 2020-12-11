@@ -13,7 +13,7 @@
     context.font = "900 115px Serif"; context.fillStyle = "#1a2753";
     context.fillText("M A", 40, 100);
 
-    context.fillStyle = "gray";  context.fillRect(175, 85, 40, 40);
+    context.fillStyle = "gray";  context.fillRect(175, 85, 50, 40);
 
     let stick = new Path2D();
     stick.moveTo(200, 90); stick.lineTo(140, 130);

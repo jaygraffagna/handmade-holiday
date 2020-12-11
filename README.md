@@ -1,6 +1,6 @@
 # Handmade Holiday :gift:
 
-[Live!](https://jaygraffagna-handmade-holiday.netlify.app)
+[Here](https://jaygraffagna-handmade-holiday.netlify.app)
 
 ## Uses
 - [Svelte](https://svelte.dev/)
