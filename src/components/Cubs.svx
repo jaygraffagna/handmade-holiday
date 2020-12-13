@@ -23,19 +23,16 @@
     context.beginPath(); context.fillStyle = "#ffffff";
     context.arc(cWidth/2, cHeight/2, cHeight/2, 0, 2*Math.PI);
     context.fill();
-
     context.beginPath(); context.fillStyle = "#0e3286";
     context.arc(cWidth/2, cHeight/2,(cHeight/2)-5, 0, 2*Math.PI);
     context.fill();
-
     context.beginPath(); context.fillStyle = "#ffffff";
     context.arc(cWidth/2, cHeight/2, (cHeight/2)-25, 0, 2*Math.PI);
     context.fill();
-
     context.beginPath(); context.fillStyle = "#cc3433";
-    context.arc(cWidth/2, cHeight/2, (cHeight/2)-30, .35*Math.PI, 1.65*Math.PI);
+    context.arc(cWidth/2, cHeight/2, (cHeight/2)-30, 
+                          .35*Math.PI, 1.65*Math.PI);
     context.fill();
-
     context.beginPath(); context.fillStyle = "#ffffff";
     context.arc(cWidth/2, cHeight/2, (cHeight/2)-50, 0, 2*Math.PI);
     context.fill();
