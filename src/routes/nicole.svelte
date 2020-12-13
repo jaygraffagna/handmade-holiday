@@ -7,8 +7,6 @@
 
   const draw = () => {
     context = canvas.getContext("2d");
-    const cWidth = canvas.width;
-    const cHeight = canvas.height;    
 
     context.fillStyle = "black";  
     context.fillRect(10, 40, 275, 70);
